@@ -2,7 +2,7 @@ let fs = require('fs');
 let expect = require('chai').expect
 let assert = require('chai').assert
 
-describe('ProductService', function() {
+describe('ProductService', function () {
   it(`should have a method named getAlbum() that takes one parameter @product-service-has-getalbum-method`, function () {
     let file
     try {
